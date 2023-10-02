@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <!-- personal information start -->
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label>Name : </label>
+        <input type="text" required maxlength="15" placeholder="Name">
+        <br> <br>
+        <label>Email : </label>
+        <input type="email" required>
+        <br> <br>
+        <label>Password : </label>
+        <input type="password">
+        <br> <br>
+        <label> Father's Name : </label>
+        <input type="text">
+        <br> <br>
+        <label> Mother's Name : </label>
+        <input type="text">
+        <br> <br>
+        </fieldset>
+        <!-- personal information end -->
+        <br>
+        <label>Gurdian Number : </label>
+        <input type="tell" required>
+        <br> <br>
+        <label>Date Of Birth : </label>
+        <input type="date"  max="2023-01-01" min="1996-01-01">
+        <br> <br>
+        <label>National Id Number : </label>
+        <input type="number">
+        <br> <br>
+        <label>Bolod Group</label>
+        <select>
+            <option> select your option</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O+</option>
+            <option>O-</option>
+        </select>
+        <br> <br>
+        <label>Gender : </label>
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Male">
+        <label for="Famale">Famale</label>
+        <input type="radio" name="Gender" id="Famale">
+        <label for="Others">Others</label>
+        <input type="radio" name="Gender" id="Others">
+        <br> <br> 
+        <label>Religon</label>
+        <select>
+            <option> select your option</option>
+            <option>Islam</option>
+            <option>Hindu</option>
+            <option>Buddist</option>
+        </select>
+        <br> <br>
+
+        <label>Present Address</label>
+        <textarea cols="30" rows="0"></textarea>
+        <br> <br> 
+        <input type="file" multiple>
+        <br> <br> 
+        <input type="checkbox">
+        <label>Agree With Your Terms And Condition</label>
+        <br> <br>
+       
+        <button>Register</button>
+    </form>
+</body>
+</html>
